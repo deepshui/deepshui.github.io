@@ -3,8 +3,8 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "Hugo FixIt Blog"
-baseURL = "https://hugo-fixit.github.io/hugo-fixit-starter1/"
+title = "weektwo"
+baseURL = "https://deepshui.github.io/"
 theme = [
   "FixIt",
   "shortcode-docs-bookmark"
