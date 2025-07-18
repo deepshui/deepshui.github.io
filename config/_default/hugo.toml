@@ -3,8 +3,8 @@
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
-title = "weektwo"
-baseURL = "https://deepshui.github.io/"
+title = "weekone"
+baseURL = "http://weekone.cc/"
 theme = [
   "FixIt",
   "shortcode-docs-bookmark"
