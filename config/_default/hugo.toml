@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "weekone"
-baseURL = "http://weekone.cc/"
+baseURL = "weekone.cc/"
 theme = [
   "FixIt",
   "shortcode-docs-bookmark"
