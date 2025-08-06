@@ -1,0 +1,13 @@
+.post-footer .post-info-more {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  margin-bottom: 1rem !important;
+}
+
+.post-footer .post-nav {
+  margin-top: 1rem !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
