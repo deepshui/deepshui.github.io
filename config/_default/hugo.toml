@@ -4,19 +4,32 @@
 # -------------------------------------------------------------------------------------
 
 title = "weekone"
-baseURL = "https://weekone.cc/"
+baseURL = "https://wk.github.io/"
 theme = [
   "FixIt",
-  "shortcode-docs-bookmark"
+  "cmpt-flyfish", 
+  "shortcode-docs-bookmark",
+  "cmpt-translate"
 ]
-defaultContentLanguage = "en"
-languageCode = "en"
+defaultContentLanguage = "zh-cn"
+disableLanguages = ["en", "zh-tw"]
 hasCJKLanguage = true
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
-relativeURLs = false
 buildDrafts = false
 summaryLength = 150
+titleCaseStyle = "ap"
+capitalizeListTitles = false
+timeZone = "Asia/Shanghai"
+# the editor to use when creating new content
+newContentEditor = "code"
 # ignore some build errors
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+ignoreLogs = [
+  "error-get-remote-image",
+  "error-get-remote-json",
+  "error-get-gh-repo",
+  "error-remote-getjson",
+  "error-missing-instagram-accesstoken",
+  "warning-dev-version"
+]

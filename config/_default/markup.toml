@@ -35,10 +35,10 @@
     # By default, Goldmark ignores newlines within a paragraph. Set to true to render newlines as <br> elements.
     hardWraps = false
     # whether to use HTML tags directly in the document
-    unsafe = true
+    unsafe = false
 
 # Table Of Contents settings
 [tableOfContents]
   ordered = false
   startLevel = 2
-  endLevel = 6
+  endLevel = 4
