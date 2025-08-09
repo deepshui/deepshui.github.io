@@ -1,0 +1,11 @@
+config/**/*.toml linguist-detectable
+content/**/*.md linguist-detectable
+# 为特定文件类型设置换行符规则
+*.svg binary
+*.webmanifest binary
+
+# 其他文本文件保持正常转换（可选）
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
