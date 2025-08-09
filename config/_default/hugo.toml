@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "weekone"
-baseURL = "https://deepshui.github.io/"
+baseURL = "https://weekone.cc/"
 theme = [
   "FixIt",
   "cmpt-flyfish", 
@@ -33,3 +33,4 @@ ignoreLogs = [
   "error-missing-instagram-accesstoken",
   "warning-dev-version"
 ]
+
