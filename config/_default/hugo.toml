@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "weekone"
-baseURL = "https://deepshui.github.io/"
+baseURL = "https://wk.github.io/"
 theme = [
   "FixIt",
   "cmpt-flyfish", 
