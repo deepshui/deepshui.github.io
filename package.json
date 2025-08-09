@@ -7,7 +7,7 @@
     "build": "hugo --gc --minify --logLevel info",
     "server": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0 -O",
     "server:production": "npm run server -- --environment production",
-    "update:theme": "git submodule update --remote --merge themes/FixIt && git add themes/FixIt && git commit -m ':arrow_up: Chore(theme): update FixIt version'"
+    "update:theme": "git submodule update --remote --merge themes/cmpt-flyfish themes/cmpt-translate themes/shortcode-docs-bookmark && git add themes/cmpt-flyfish themes/cmpt-translate themes/shortcode-docs-bookmark && git commit -m ':arrow_up: Chore(theme): update submodules version'"
   },
   "repository": {
     "type": "git",
