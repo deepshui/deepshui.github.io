@@ -61,20 +61,7 @@
     {{- end -}}
   </div>
 
-  {{- /* 摘要内容 */ -}}
-  <div class="content">
-    {{- if .Summary -}}
-      {{- $plainify := (.Param "summaryPlainify") | default false -}}
-      {{- with .Markup "home" -}}
-        {{- with .Render -}}
-          {{- $summary := dict "Content" .Summary.Text "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
-          {{- cond $plainify ($summary | plainify) $summary -}}
-        {{- end -}}
-      {{- end -}}
-    {{- else -}}
-      {{- .Description | safeHTML -}}
-    {{- end -}}
-  </div>
+  
 
   {{- /* 页脚 */ -}}
   <div class="post-footer">

@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 title = "weekone"
-baseURL = "https://wk.github.io/"
+baseURL = "https://deepshui.github.io/"
 theme = [
   "FixIt",
   "cmpt-flyfish", 
@@ -18,7 +18,7 @@ enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
 buildDrafts = false
-summaryLength = 150
+summaryLength = 0
 titleCaseStyle = "ap"
 capitalizeListTitles = false
 timeZone = "Asia/Shanghai"
