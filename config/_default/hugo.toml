@@ -6,8 +6,8 @@
 title = "weekone"
 baseURL = "https://weekone.cc/"
 theme = [
-  "FixIt",
-  "cmpt-flyfish", 
+  "cmpt-flyfish",
+  "FixIt", 
   "shortcode-docs-bookmark",
   "cmpt-translate"
 ]
@@ -33,3 +33,4 @@ ignoreLogs = [
   "error-missing-instagram-accesstoken",
   "warning-dev-version"
 ]
+
