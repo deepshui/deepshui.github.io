@@ -18,14 +18,11 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      - name: Update themes
-        run: |
-          git submodule update --remote --merge themes/cmpt-flyfish
-          git submodule update --remote --merge themes/cmpt-translate
-          git submodule update --remote --merge themes/shortcode-docs-bookmark
+      - name: Update theme
+        run: git submodule update --remote --merge themes/FixIt
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          commit_message: ':arrow_up: Chore(theme): update submodules version'
+          commit_message: ':arrow_up: Chore(theme): update FixIt version'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
