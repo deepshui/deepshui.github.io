@@ -44,7 +44,9 @@ jobs:
           hugo-version: ${{ vars.HUGO_VERSION || 'latest' }}
           extended: true
       - name: Hugo build
-        run: hugo --gc --minify --logLevel info
+        run: hugo --gc --minify --logLevel debug
+      - name: Check public directory
+        run: ls -la public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
