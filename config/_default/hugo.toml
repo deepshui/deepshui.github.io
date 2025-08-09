@@ -34,3 +34,10 @@ ignoreLogs = [
   "warning-dev-version"
 ]
 
+# Author configuration
+[params.author]
+name = "Your Name"
+link = "https://yourwebsite.com"
+email = "your@email.com"
+avatar = "/images/avatar.jpg"
+

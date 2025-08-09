@@ -48,9 +48,8 @@
 
   {{- /* 元信息 */ -}}
   <div class="post-meta">
-    {{- partial "single/post-author.html" . -}}
     {{- with .PublishDate | dateFormat (.Site.Params.dateFormat | default "2006-01-02") -}}
-      &nbsp;<span class="post-publish" title='{{ "2006-01-02 15:04:05" | $.PublishDate.Format }}'>
+      <span class="post-publish" title='{{ "2006-01-02 15:04:05" | $.PublishDate.Format }}'>
         {{- printf `<time datetime="%s">%s</time>` . . | dict "Date" | T "single.publishedOnDate" | safeHTML -}}
       </span>
     {{- end -}}
@@ -61,7 +60,12 @@
     {{- end -}}
   </div>
 
-  
+  {{- /* 摘要 */ -}}
+  <div class="content" itemprop="description">
+    {{- with .Summary -}}
+      {{- . | strings.Truncate 20 "..." | markdownify -}}
+    {{- end -}}
+  </div>
 
   {{- /* 页脚 */ -}}
   <div class="post-footer">
